@@ -1,0 +1,12 @@
+global-styling:
+  version: VERSION
+  css:
+    theme:
+      css/style.css: {}
+      https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css: {type: external}
+  js:
+    js/custom.js: {}
+  
+  dependencies:
+    - core/jquery
+ 

@@ -1,0 +1,22 @@
+name: Discord
+type: theme
+base theme: false
+description: 'A clean, accessible, and powerful Drupal administration theme.'
+alt text: 'Screenshot of Claro, Drupal administration theme.'
+core_version_requirement: ^8 || ^9
+
+libraries:
+  - discord/global-styling
+
+regions:
+  header: 'Header'
+  banner: 'Banner'
+  about_left: 'About left'
+  about_right: 'About right'
+  menu_left: 'Menu left'
+  menu_right: 'Menu right'
+  content: 'Content'
+  tax_left: 'Tax-Left'
+  tax_right: 'Tax-Right'
+  footer_left: 'Footer left'
+  footer_right: 'Footer_right'
